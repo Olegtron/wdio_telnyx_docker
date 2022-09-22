@@ -9,6 +9,7 @@
         "@wdio/mocha-framework": "^7.24.1",
         "@wdio/selenium-standalone-service": "^7.24.1",
         "@wdio/spec-reporter": "^7.24.1",
+        "allure-commandline": "^2.18.1",
         "rimraf": "^3.0.2"
     },
     "scripts": {
