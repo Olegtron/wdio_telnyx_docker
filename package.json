@@ -1,0 +1,27 @@
+{
+    "name": "webdriverio-tests",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+        "@wdio/allure-reporter": "^7.24.1",
+        "@wdio/cli": "^7.24.1",
+        "@wdio/local-runner": "^7.24.1",
+        "@wdio/mocha-framework": "^7.24.1",
+        "@wdio/selenium-standalone-service": "^7.24.1",
+        "@wdio/spec-reporter": "^7.24.1",
+        "rimraf": "^3.0.2"
+    },
+    "scripts": {
+        "test_all": "wdio run ./configs/all.conf.js",
+        "test_all_headless": "wdio run ./configs/all_headless.conf.js",
+        "chrome": "wdio run ./configs/chrome.conf.js",
+        "chrome_headless": "wdio run ./configs/chrome_headless.conf.js",
+        "firefox": "wdio run ./configs/firefox.conf.js",
+        "firefox_headless": "wdio run ./configs/firefox_headless.conf.js",
+        "edge": "wdio run ./configs/edge.conf.js",
+        "edge_headless": "wdio run ./configs/edge_headless.conf.js",
+        "allure_generate": "npx allure generate allure-results --clean && npx allure generate reports/ui/allure-results --clean -o reports/ui/allure-report",
+        "allure_generate_and_open": "npx allure generate allure-results --clean && npx allure generate reports/ui/allure-results --clean -o reports/ui/allure-report && allure open",
+        "clear": "rimraf allure-results && rimraf allure-report && rimraf reports"
+    }
+}
