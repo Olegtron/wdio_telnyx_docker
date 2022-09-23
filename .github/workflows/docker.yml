@@ -1,18 +1,15 @@
 name: Tests in Docker container
+
 on:
   push:
     branches: [master]
 jobs:
-  test:
-    name: Run test suite
+  test_run:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout code
+    - name: Check out the repo
       uses: actions/checkout@v2
-
-    - name: Build docker image
-      run: docker build olegtron228 .
-
-    - name: Run tests
-      run: docker run olegtron228
+    - name: Run the build process with Docker
+      uses: addnab/docker-run-action@v3
+        with:
+            image: olegtron228/olegtron:v4
