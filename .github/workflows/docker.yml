@@ -1,13 +1,18 @@
 name: Tests in Docker container
-on: 
-    push:
-        branches: [master]
+on:
+  push:
+    branches: [master]
 jobs:
-  build:
+  test:
+    name: Run test suite
     runs-on: ubuntu-latest
-    container:
-      image: olegtron228/olegtron:v4
-      options: --shm-size=4gb
+
     steps:
-      - name: Run tests
-        run: cd /app && npm run test_all_headless
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Build docker image
+      run: docker build olegtron228 .
+
+    - name: Run tests
+      run: docker run olegtron228
