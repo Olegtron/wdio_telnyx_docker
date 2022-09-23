@@ -1,5 +1,4 @@
 name: Tests in Docker container
-
 on:
   push:
     branches: [master]
@@ -9,5 +8,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build image
-      run: docker build . --file Dockerfile --tag olegtron:$(date +%s)
-
+      run: docker build . --file Dockerfile --tag olegtron
+    - name: run tests in ocntainer
+      run: docker run olegtron

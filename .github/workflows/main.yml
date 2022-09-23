@@ -1,5 +1,4 @@
 name: telnyx wdio testing
-
 on:
   push:
     branches: [master]
@@ -16,7 +15,6 @@ jobs:
       run: npm install
     - name: Run tests
       run: npm run test_all_headless
-
     - name: Generate Report
       if: always()
       run: npm run allure_generate
@@ -26,7 +24,6 @@ jobs:
       with:
           name: allure-report
           path: ./allure-report
-
     - name: Deploy to gh-pages
       if: always()
       uses: peaceiris/actions-gh-pages@v3.7.3
