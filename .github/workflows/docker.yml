@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Build image
+    - name: Build container from Dockerfile
       run: docker build . --file Dockerfile --tag olegtron
-    - name: run tests in ocntainer
+    - name: Run tests in container
       run: docker run olegtron
