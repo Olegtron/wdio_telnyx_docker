@@ -16,15 +16,15 @@ exports.config = {
     {   maxInstances: 1,
         browserName: 'chrome',
         acceptInsecureCerts: true,
-        'goog:chromeOptions': { args: ['--headless']}},
+        'goog:chromeOptions': { args: ['--headless', '--no-sandbox', '--disable-dev-shm-usage']}},
     {   maxInstances: 1,
         browserName: 'MicrosoftEdge',
         acceptInsecureCerts: true,
-        'ms:edgeOptions': { args: ['--headless']}},
+        'ms:edgeOptions': { args: ['--headless', '--no-sandbox', '--disable-dev-shm-usage']}},
     {   maxInstances: 1,
         browserName: 'firefox',
         acceptInsecureCerts: true,
-        'moz:firefoxOptions': { args: ['--headless']}}
+        'moz:firefoxOptions': { args: ['--headless', '--no-sandbox', '--disable-dev-shm-usage']}}
     ],
     // Level of logging verbosity: trace | debug | info | warn | error | silent
     logLevel: 'info',

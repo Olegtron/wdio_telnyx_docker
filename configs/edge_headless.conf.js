@@ -6,7 +6,7 @@ const edgeConfig = {
     capabilities: [{
         maxInstances: 1,
         browserName: "MicrosoftEdge",
-        'ms:edgeOptions': { args: ['--headless']},
+        'ms:edgeOptions': { args: ['--headless', '--no-sandbox', '--disable-dev-shm-usage']},
     }],
     path: "/wd/hub",
 };
