@@ -11,5 +11,5 @@ jobs:
       uses: actions/checkout@v2
     - name: Run the build process with Docker
       uses: addnab/docker-run-action@v3
-        with:
-            image: olegtron228/olegtron:v4
+      with:
+          image: olegtron228/olegtron:v4
