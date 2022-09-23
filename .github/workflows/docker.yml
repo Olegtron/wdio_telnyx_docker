@@ -4,9 +4,10 @@ on:
   push:
     branches: [master]
 jobs:
-  test_run:
+  build:
     runs-on: ubuntu-latest
-    container: olegtron228/olegtron:v4
     steps:
-      - run: npm run test_all_headless
+    - uses: actions/checkout@v2
+    - name: Build image
+      run: docker build . --file Dockerfile --tag olegtron:$(date +%s)
 
