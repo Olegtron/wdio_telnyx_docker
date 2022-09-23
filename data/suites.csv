@@ -1,4 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri Sep 23 15:41:26 UTC 2022","Fri Sep 23 15:41:27 UTC 2022","1600","","My Login application","","My Login application","should have the right title","should have the right title",""
-"passed","Fri Sep 23 15:41:23 UTC 2022","Fri Sep 23 15:41:24 UTC 2022","1032","","My Login application","","My Login application","should have the right title","should have the right title",""
-"passed","Fri Sep 23 15:41:36 UTC 2022","Fri Sep 23 15:41:39 UTC 2022","2775","","My Login application","","My Login application","should have the right title","should have the right title",""
+"passed","Fri Sep 23 16:09:11 UTC 2022","Fri Sep 23 16:09:12 UTC 2022","1028","","My Login application","","My Login application","should have the right title","should have the right title",""
+"passed","Fri Sep 23 16:09:14 UTC 2022","Fri Sep 23 16:09:16 UTC 2022","1731","","My Login application","","My Login application","should have the right title","should have the right title",""
+"passed","Fri Sep 23 16:09:04 UTC 2022","Fri Sep 23 16:09:05 UTC 2022","711","","My Login application","","My Login application","should have the right title","should have the right title",""
