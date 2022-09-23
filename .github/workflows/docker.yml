@@ -6,14 +6,7 @@ on:
 jobs:
   test_run:
     runs-on: ubuntu-latest
+    container: olegtron228/olegtron:v4
     steps:
-    - name: Check out the repo
-      uses: actions/checkout@v2
-    - name: Run the build process with Docker
-      uses: addnab/docker-run-action@v3
-      with:
-          image: olegtron228/olegtron:v4
-    - name: Create container
-      run: docker build -t olegtron
-    - name: Run container
-      run: docker run -it olegtron
+      - run: npm run test_all_headless
+
