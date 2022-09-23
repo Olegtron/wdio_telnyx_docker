@@ -13,4 +13,7 @@ jobs:
       uses: addnab/docker-run-action@v3
       with:
           image: olegtron228/olegtron:v4
-          run: npm run test_all_headless
+    - name: Create container
+      run: docker build -t olegtron
+    - name: Run container
+      run: docker run -it olegtron
