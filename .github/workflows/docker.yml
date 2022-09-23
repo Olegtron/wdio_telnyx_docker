@@ -10,4 +10,4 @@ jobs:
       options: --shm-size=4gb
     steps:
       - name: Run tests
-        run: npm run test_all_headless
+        run: cd /app && npm run test_all_headless
