@@ -21,8 +21,8 @@
         "firefox_headless": "wdio run ./configs/ff_headless.conf.js",
         "edge": "wdio run ./configs/edge.conf.js",
         "edge_headless": "wdio run ./configs/edge_headless.conf.js",
+        "test_supportCenter": "wdio run ./configs/chrome_headless.conf.js --spec supportCenter.js",
         "allure_generate": "npx allure generate allure-results --clean",
-        "report_create": "npx allure generate reports/ui/allure-results --clean -o reports/ui/allure-report",
         "report_open": "allure open",
         "clear": "rimraf allure-results && rimraf allure-report && rimraf reports"
     }
