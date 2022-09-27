@@ -22,7 +22,8 @@
         "edge": "wdio run ./configs/edge.conf.js",
         "edge_headless": "wdio run ./configs/edge_headless.conf.js",
         "allure_generate": "npx allure generate allure-results --clean",
-        "report": "npx allure generate reports/ui/allure-results --clean -o reports/ui/allure-report",
+        "report_create": "npx allure generate reports/ui/allure-results --clean -o reports/ui/allure-report",
+        "report_open": "allure open",
         "clear": "rimraf allure-results && rimraf allure-report && rimraf reports"
     }
 }
