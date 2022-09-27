@@ -1,6 +1,9 @@
+# Project summary
+This project purpose is to test telnyx.com website by using webdriverIO framework, and test website from docker container
 ## Requirement
 - Download and install VS Code (https://code.visualstudio.com/Download) or any other IDE.
 - Download and install Node.js (https://nodejs.org/en/download/) at least v.14.x
+- Download and install Docker (https://www.docker.com/products/docker-desktop)
 
 ### Installing
 - Download or clone my git repository
@@ -24,10 +27,6 @@ npm run allure_generate
 ```
 
 ```
-npm run report_create
-```
-
-```
 npm run report_open
 ```
 - To clear reports type in terminal:
@@ -35,16 +34,15 @@ npm run report_open
 ```
 npm run clear
 ```
-
-- To stop selenium standalone server on your machine use this commands:
+- To stop selenium standalone server:
 
 ```
 netstat -aof | findstr :4444
 ```
 ```
-taskkill /PID ID /F 
+taskkill /PID ID /F
 ```
-> Instead of **ID**, you need to enter ID that will be shown in terminal after entering  **netstat** command.
+> Instead of **ID** enter ID number that you get after **netstat** command.
 
 ### Test run from Docker container
 - Type in terminal next commands:
