@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": ":nth-child(5)>div.telnyx-slider>div>div.ant-slider-handle"
-}

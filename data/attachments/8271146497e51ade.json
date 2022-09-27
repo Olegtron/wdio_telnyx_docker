@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "form>div>div>label>div>div>[name=\"email\"]"
-}

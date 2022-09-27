@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "li:nth-child(10)>span>span"
-}

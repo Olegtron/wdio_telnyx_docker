@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "div.container>div>section>div:nth-child(3)>a>div>h2>span"
-}

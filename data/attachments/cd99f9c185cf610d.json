@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"react-login>div>div>div>div>div>span\"}\n  (Session info: headless chrome=105.0.5195.125)",
-  "stacktrace": "#0 0x5610bf385693 <unknown>\n#1 0x5610bf17eb0a <unknown>\n#2 0x5610bf1b75f7 <unknown>\n#3 0x5610bf1b77c1 <unknown>\n#4 0x5610bf1ea804 <unknown>\n#5 0x5610bf1d494d <unknown>\n#6 0x5610bf1e84b0 <unknown>\n#7 0x5610bf1d4743 <unknown>\n#8 0x5610bf1aa533 <unknown>\n#9 0x5610bf1ab715 <unknown>\n#10 0x5610bf3d57bd <unknown>\n#11 0x5610bf3d8bf9 <unknown>\n#12 0x5610bf3baf2e <unknown>\n#13 0x5610bf3d99b3 <unknown>\n#14 0x5610bf3aee4f <unknown>\n#15 0x5610bf3f8ea8 <unknown>\n#16 0x5610bf3f9052 <unknown>\n#17 0x5610bf41371f <unknown>\n#18 0x7f591b2b2609 <unknown>\n"
-}
