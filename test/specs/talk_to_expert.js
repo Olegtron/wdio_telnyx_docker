@@ -1,6 +1,6 @@
 const commonPage = require('../pageobjects/common.page');
 const mainPage = require('../pageobjects/main.page');
-const contactUsPage = require('../pageobjects/ContactUs.page');
+const contactUsPage = require('../pageobjects/contactUs.page');
 
 const random = Array(12).fill("QWERTYUIOPqwertyuiop").map(function(x) { return x[Math.floor(Math.random() * x.length)] }).join('');
 const randomPhone = Array(10).fill("1234567890").map(function(x) { return x[Math.floor(Math.random() * x.length)] }).join('');
