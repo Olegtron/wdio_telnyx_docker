@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"main>div>div>div>div>div>div>div>div>div>div:nth-child(2)>div>div:nth-child(1)>a\"}\n  (Session info: headless chrome=105.0.5195.125)",
+  "stacktrace": "#0 0x555eae896693 <unknown>\n#1 0x555eae68fb0a <unknown>\n#2 0x555eae6c85f7 <unknown>\n#3 0x555eae6c87c1 <unknown>\n#4 0x555eae6fb804 <unknown>\n#5 0x555eae6e594d <unknown>\n#6 0x555eae6f94b0 <unknown>\n#7 0x555eae6e5743 <unknown>\n#8 0x555eae6bb533 <unknown>\n#9 0x555eae6bc715 <unknown>\n#10 0x555eae8e67bd <unknown>\n#11 0x555eae8e9bf9 <unknown>\n#12 0x555eae8cbf2e <unknown>\n#13 0x555eae8ea9b3 <unknown>\n#14 0x555eae8bfe4f <unknown>\n#15 0x555eae909ea8 <unknown>\n#16 0x555eae90a052 <unknown>\n#17 0x555eae92471f <unknown>\n#18 0x7fcf023e4609 <unknown>\n"
+}
